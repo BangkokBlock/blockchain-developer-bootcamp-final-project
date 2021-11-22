@@ -4,10 +4,10 @@ Github- https://github.com/BangkokBlock/blockchain-developer-bootcamp-final-proj
 
 After you have cloned the project locally install the dependencies in the root project folder
 
-Dependencies (copy, paste, install all of these)…
-(1) npm install ethers hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers web3modal @openzeppelin/contracts ipfs-http-client axios 
-(2) npm install add -D tailwindcss@latest postcss@latest autoprefixer@latest 
-(3) npx tailwindcss init – p 
+Dependencies (copy, paste, install all of these)...                                                                   
+(1) npm install ethers hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers web3modal @openzeppelin/contracts ipfs-http-client axios                                                                        
+(2) npm install add -D tailwindcss@latest postcss@latest autoprefixer@latest                                            
+(3) npx tailwindcss init – p                                                                                           
 (4) npx hardhat
 
 
