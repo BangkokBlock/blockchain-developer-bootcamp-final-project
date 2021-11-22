@@ -3,7 +3,8 @@
 ## About:
 This is a marketplace designed for photographers to create NFT’s of their original photos which they can then sell on the marketplace. It also provides a place for fans to purchase their favorite photos and resell them on the market. Users will need a metamask wallet to participate with minting, purchases, and sales.
 
-## Prerequisites:                                                                                              metamask wallet                                                                                                       
+## Prerequisites:                                                                                                    
+metmask wallet                                                                                                       
 node js                                                                                                                
 hardat                                                                                                               
 ethers hardhat                                                                                                     
@@ -19,7 +20,7 @@ tailwind
 
 ## How to run this Project locally...
 
-(1)In first terminal in root project folder *run npx hardhat node*
+(1)In first terminal in root project folder ***run npx hardhat node***
 
 (2)Log into metamask on localhost 8545
 
@@ -28,16 +29,16 @@ tailwind
 (4)Now in metamask click “account details” then “export private key”… copy the key
 and paste it into the **p-key.txt** file 
 
-(5)In a second terminal…MAKE SURE YOU ARE IN PROJECT ROOT DIRECTORY FOLDER and run…. *npx hardhat run scripts/deploy.js --network localhost*  This will return both contract addresses. 
+(5)In a second terminal…MAKE SURE YOU ARE IN PROJECT ROOT DIRECTORY FOLDER and run…. ***npx hardhat run scripts/deploy.js --network localhost***  This will return both contract addresses. 
 
 (6)Go to **config.js** file and put those contract addresses that have been generated in quotes as they need to be strings. If the addresses were not automatically generated copy them in from the terminal into the file with quotes like this..
 
 *export const nftmarketaddress = '0x5FbDB2315678afecb367f032d93F642f64180aa3'                                          
 export const nftaddress = '0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512'*
 
-(7)Run *npx hardhat test* This should return 1 passing test however if you look at sample-test.js in the test folder you will see there are many passing subtests within this one passing test.
+(7)Run ***npx hardhat test*** This should return 1 passing test however if you look at sample-test.js in the test folder you will see there are many passing subtests within this one passing test.
 
-(8)In the same terminal (second terminal)… *npm run dev* then copy and paste the provided webpage (http://localhost:3000/)into your webrowser. Please use Chrome. 
+(8)In the same terminal (second terminal)… ***npm run dev*** then copy and paste the provided webpage (http://localhost:3000/) into your webrowser. Please use Chrome. 
 
 ## HOW TO MINT, BUY, & SELL TOKENS
 
