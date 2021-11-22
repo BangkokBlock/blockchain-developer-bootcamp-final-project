@@ -1,4 +1,4 @@
-Final Project- NFT Music Photography Photos
+# Final Project- NFT Music Photography Photos
 
 Github- https://github.com/BangkokBlock/blockchain-developer-bootcamp-final-project.git
 
@@ -31,7 +31,7 @@ export const nftaddress = '0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512'
 
 (7)Run npx hardhat test This should return 1 passing test however if you look at sample-test.js in the test folder you will see there are many passing subtests within this one passing test.
 
-(8)In the same terminal (second terminal)… npm run dev then enter the webpage 
+(8)In the same terminal (second terminal)… npm run dev then copy and paste the provided webpage (http://localhost:3000/)into your webbrowser. Please use Chrome. 
 
 (9)Minting a token- on the mint function page we enter Artist Name, Performance Date, and Price (please put 1 ether) and upload a jpeg file. There is a folder called Pics in the root project folder where you can select from a number of pics or use your own. Once you hit the mint button it should ask you to execute the transaction in metamask, then ask you to confirm it.  If successful the token will be loaded onto the Main Marketplace and the My Minted NFT’s page. 
 
