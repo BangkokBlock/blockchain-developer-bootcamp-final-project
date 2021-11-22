@@ -23,7 +23,7 @@ and paste it into the p-key.txt file
 
 (5)In a second terminal…MAKE SURE YOU ARE IN PROJECT ROOT DIRECTORY FOLDER and run…. npx hardhat run scripts/deploy.js --network localhost  This will return both contract addresses. 
 
-(6)Go to config.js file and put those contract addresses that have been generated in quotes as they need to be strings. If the addresses were not automatically generated copy them in from the terminal into the file with quotes like this…
+(6)Go to config.js file and put those contract addresses that have been generated in quotes as they need to be strings. If the addresses were not automatically generated copy them in from the terminal into the file with quotes like this...
 export const nftmarketaddress = '0x5FbDB2315678afecb367f032d93F642f64180aa3'
 export const nftaddress = '0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512'
 
