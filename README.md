@@ -6,12 +6,12 @@ After you have cloned the project locally install the dependencies in the root p
 
 Dependencies (copy, paste, install all of these)…
 (1) npm install ethers hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers web3modal @openzeppelin/contracts ipfs-http-client axios 
-(2) npm install add -D tailwindcss@latest postcss@latest autoprefixer@latest 
-(3) npx tailwindcss init – p 
+(2) npm install add -D tailwindcss@latest postcss@latest autoprefixer@latest
+(3) npx tailwindcss init – p
 (4) npx hardhat
 
-
 How to run this Project locally….
+
 (1)In first terminal in root project folder run npx hardhat node
 
 (2)Log into metamask on localhost 8545
@@ -24,6 +24,7 @@ and paste it into the p-key.txt file
 (5)In a second terminal…MAKE SURE YOU ARE IN PROJECT ROOT DIRECTORY FOLDER and run…. npx hardhat run scripts/deploy.js --network localhost  This will return both contract addresses. 
 
 (6)Go to config.js file and put those contract addresses that have been generated in quotes as they need to be strings. If the addresses were not automatically generated copy them in from the terminal into the file with quotes like this…
+
 export const nftmarketaddress = '0x5FbDB2315678afecb367f032d93F642f64180aa3'
 export const nftaddress = '0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512'
 
