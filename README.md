@@ -6,11 +6,12 @@ After you have cloned the project locally install the dependencies in the root p
 
 Dependencies (copy, paste, install all of these)…
 (1) npm install ethers hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers web3modal @openzeppelin/contracts ipfs-http-client axios 
-(2) npm install add -D tailwindcss@latest postcss@latest autoprefixer@latest
-(3) npx tailwindcss init – p
+(2) npm install add -D tailwindcss@latest postcss@latest autoprefixer@latest 
+(3) npx tailwindcss init – p 
 (4) npx hardhat
 
-How to run this roject locally….
+
+How to run this Project locally….
 (1)In first terminal in root project folder run npx hardhat node
 
 (2)Log into metamask on localhost 8545
@@ -23,13 +24,8 @@ and paste it into the p-key.txt file
 (5)In a second terminal…MAKE SURE YOU ARE IN PROJECT ROOT DIRECTORY FOLDER and run…. npx hardhat run scripts/deploy.js --network localhost  This will return both contract addresses. 
 
 (6)Go to config.js file and put those contract addresses that have been generated in quotes as they need to be strings. If the addresses were not automatically generated copy them in from the terminal into the file with quotes like this…
-
-<<<<<<< HEAD
 export const nftmarketaddress = '0x5FbDB2315678afecb367f032d93F642f64180aa3'
 export const nftaddress = '0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512'
-=======
-export const nftmarketaddress = '0x5FbDB2315678afecb367f032d93F642f64180aa3'                                                                                        export const nftaddress = '0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512'
->>>>>>> b2cf04303c6daea37bbd2bf7c21f7f8f35ff0016
 
 (7)Run npx hardhat test This should return 1 passing test however if you look at sample-test.js in the test folder you will see there are many passing subtests within this one passing test. 
 (8)In the same terminal (second terminal)… npm run dev then enter the webpage 
@@ -40,4 +36,3 @@ export const nftmarketaddress = '0x5FbDB2315678afecb367f032d93F642f64180aa3'    
 
 
 *IF RUNNING INTO ERRORS WITH METAMASK first try switching off the network and switching back onto it. If stll running errors try to “reset the account” by going to “settings”, then “advanced”, than account “reset”. If still getting errors after a reset than go to “settings”, “advanced” and turn on “Customize transaction nonce”. Now go back and execute a transaction. Put in 0 for the “nonce” for your first transaction and every one thereafter should populate automatically in succession.
-
