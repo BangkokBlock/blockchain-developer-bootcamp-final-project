@@ -20,7 +20,7 @@ tailwind
 
 ## How to run this Project locally...
 
-(1)In first terminal in root project folder run *npx hardhat node*
+(1)In first terminal in root project folder run ***npx hardhat node***
 
 (2)Log into metamask on localhost 8545
 
