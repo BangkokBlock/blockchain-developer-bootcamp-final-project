@@ -10,8 +10,7 @@ Dependencies (copy, paste, install all of these)…
 (3) npx tailwindcss init – p
 (4) npx hardhat
 
-How to run this Project locally….
-
+How to run this roject locally….
 (1)In first terminal in root project folder run npx hardhat node
 
 (2)Log into metamask on localhost 8545
@@ -25,8 +24,12 @@ and paste it into the p-key.txt file
 
 (6)Go to config.js file and put those contract addresses that have been generated in quotes as they need to be strings. If the addresses were not automatically generated copy them in from the terminal into the file with quotes like this…
 
+<<<<<<< HEAD
 export const nftmarketaddress = '0x5FbDB2315678afecb367f032d93F642f64180aa3'
 export const nftaddress = '0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512'
+=======
+export const nftmarketaddress = '0x5FbDB2315678afecb367f032d93F642f64180aa3'                                                                                        export const nftaddress = '0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512'
+>>>>>>> b2cf04303c6daea37bbd2bf7c21f7f8f35ff0016
 
 (7)Run npx hardhat test This should return 1 passing test however if you look at sample-test.js in the test folder you will see there are many passing subtests within this one passing test. 
 (8)In the same terminal (second terminal)… npm run dev then enter the webpage 
