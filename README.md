@@ -5,12 +5,11 @@ This is a marketplace designed for photographers to create NFT’s of their orig
 
 ## Prerequisites:                                                                                                    
 metmask wallet                                                                                                       
-node js                                                                                                                
-hardat                                                                                                               
-ethers hardhat                                                                                                     
-ethereum waffle chai                                                                                      
-ipfs-http-client axios                                                                                               
-tailwind
+node js                                                                                                                  hardat                                                                                                                   ethers                                                                                                                   
+hardhat-ethers                                                                                                           
+hardhat-waffle                                                                                                           
+ethereum waffle                                                                                                          chai                                                                                                                     ipfs-http-client                                                                                                         axios                                                                                                                    
+tailwind                                                                                                                 web3modal                                                                                                                @openzeppelin
 
 ## Dependencies (copy, paste, install all of these)                                                                    
 (1)***npm install ethers hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers web3modal @openzeppelin/contracts ipfs-http-client axios***                                                                 
