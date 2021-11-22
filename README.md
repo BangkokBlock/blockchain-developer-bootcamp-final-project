@@ -12,10 +12,10 @@ ipfs-http-client axios
 tailwind
 
 ## Dependencies (copy, paste, install all of these)                                                                    
-(1)*npm install ethers hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers web3modal @openzeppelin/contracts ipfs-http-client axios*                                                                      
-(2)*npm install add -D tailwindcss@latest postcss@latest autoprefixer@latest*                                         
-(3)*npx tailwindcss init – p*                                                                                          
-(4)*npx hardhat*
+(1)***npm install ethers hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers web3modal @openzeppelin/contracts ipfs-http-client axios***                                                                 
+(2)***npm install add -D tailwindcss@latest postcss@latest autoprefixer@latest***                                        
+(3)***npx tailwindcss init p***                                                                                          
+(4)***npx hardhat***
 
 ## How to run this Project locally...
 
