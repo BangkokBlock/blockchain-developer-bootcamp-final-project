@@ -28,7 +28,7 @@ tailwinds
 
 (1)In first terminal in root project folder run ***npx hardhat node***
 
-(2)Log into metamask localhost 8545 on Chrome browser
+(2)Log into metamask localhost 8545 on Chrome browser. This project will be connecting to Polygon Mumbai testnet through Infura Endpoint on localhost 8545. 
 
 (3)Copy the first account[0] private key generated in your terminal and import this into metamask
 
