@@ -55,11 +55,11 @@ export default function MyAssets() {
   }
   
   if(loadingState === 'loaded' && !nfts.length) return (<h1
-  className='px-20 py-7 text-4x1'>You do not own any NFTs currently :(</h1>)
+  className='px-20 py-7 text-4x1'>You have not bought any NFTs yet</h1>)
 
   return (
     <div className='flex justify-center'>
-          <div className='px-4' style={{maxWidth: '1600px'}}>
+          <div className='px-8' style={{maxWidth: '1600px'}}>
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4'>
             {
               nfts.map((nft, i)=>(

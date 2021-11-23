@@ -101,7 +101,7 @@ contract MVMarket is ReentrancyGuard {
 	      uint itemCount = 0;
 	      uint currentIndex = 0;
 	      for(uint i = 0; i < totalItemCount; i++) {
-                if(idToMarketToken[i + 1].seller == msg.sender) {
+                if(idToMarketToken[i + 1].owner == msg.sender) {
                     itemCount += 1;
                 }
             }
