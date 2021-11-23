@@ -4,7 +4,7 @@
 This is a marketplace designed for photographers to create NFT’s of their original photos which they can display and sell on the marketplace website. It also provides a place for fans to purchase their favorite artist photos and resell them on in the marketplace. Users will need a metamask wallet to participate with minting, purchases, and sales. 
 
 ## Prerequisites:                                                                                                        
-metmask wallet <br />
+metamask wallet <br />
 node js <br />
 hardhat <br />
 ethers <br />
