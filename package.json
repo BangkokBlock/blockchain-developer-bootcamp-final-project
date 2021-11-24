@@ -1,14 +1,13 @@
 {
   "name": "nft-music-videos-marketplace",
+  "homepage": ".",
   "private": true,
-  "homepage":"http://BangkokBlock.github.io/blockchain-developer-bootcamp-final-project",
+
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "lint": "next lint"
   },
   "dependencies": {
     "@babel/core": "^7.16.0",
