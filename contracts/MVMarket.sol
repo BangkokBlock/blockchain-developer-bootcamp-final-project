@@ -13,7 +13,7 @@ contract MVMarket is ReentrancyGuard {
 
     address payable owner;
 
-    uint listingPrice = .025 ether;
+    uint listingPrice = 1 ether;
 
     constructor() {
         owner = payable(msg.sender);
