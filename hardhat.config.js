@@ -1,8 +1,10 @@
 require("@nomiclabs/hardhat-waffle");
 
-require('dotenv').config()
-const keyData = process.env.PRIV_KEY
-const projectId = process.env.INFURA_API_KEY;
+const projectId = '3d37f1e1e76e47d791fd72c93204c7ab'
+const fs = require('fs')
+const keyData = fs.readFileSync('./p-key.txt', {
+  encoding:'utf8', flag:'r'
+})
 
 module.exports = {
   defaultNetwork: 'hardhat',
