@@ -1,25 +1,24 @@
 require("@nomiclabs/hardhat-waffle");
-
-const projectId =  '3d37f1e1e76e47d791fd72c93204c7ab'
-const fs = require('fs')
-const keyData = fs.readFileSync('./p-key.txt', {
-  encoding:'utf8', flag:'r'
-})
+require('dotenv').config({ path: '.env.local' })
 
 module.exports = {
-  defaultNetwork: 'hardhat',
-  networks:{
-    hardhat:{
+  defaultNetwork: 'rinkeby',
+  networks: {
+    hardhat: {
       chainId: 1337//config standard
     },
-    mumbai:{
-      url: `https://polygon-mumbai.infura.io/v3/${projectId}`,
-      accounts:[keyData]
+    mumbai: {
+      url: `https://polygon-mumbai.infura.io/v3/${process.env.INFURA_PROJECT_ID}`,
+      accounts: [process.env.CONTRACT_PRIVATE_KEY]
     },
-      mainnet: {
-        url: `https://mainnet.infura.io/v3/${projectId}`,
-        accounts:[keyData]
-      },
+    rinkeby: {
+      url: `https://rinkeby.infura.io/v3/${process.env.INFURA_PROJECT_ID}`,
+      accounts: [process.env.CONTRACT_PRIVATE_KEY]
+    },
+    mainnet: {
+      url: `https://mainnet.infura.io/v3/${process.env.INFURA_PROJECT_ID}`,
+      accounts: [process.env.CONTRACT_PRIVATE_KEY]
+    },
   },
   solidity: {
     version: "0.8.4",
