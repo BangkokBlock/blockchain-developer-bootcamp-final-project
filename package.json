@@ -7,7 +7,7 @@
     "start": "next start",
     "lint": "next lint",
     "compile": "npx hardhat compile",
-    "deploy-dev": "npm run compile && npx hardhat run scripts/deploy.js --network rinkeby"
+    "deploy-dev": "npm run compile && npx hardhat run scripts/deploy.js --network rinkeby && cp -r ./artifacts/contracts/*.sol ./contracts/interfaces"
   },
   "dependencies": {
     "@babel/core": "^7.16.0",

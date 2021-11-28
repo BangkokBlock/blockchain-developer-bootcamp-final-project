@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import Web3Modal from "web3modal";
 
-import NFT from "../artifacts/contracts/NFT.sol/NFT.json";
-import MVMarket from "../artifacts/contracts/MVMarket.sol/MVMarket.json";
+import NFT from "../contracts/interfaces/NFT.sol/NFT.json";
+import MVMarket from "../contracts/interfaces/MVMarket.sol/MVMarket.json";
 
 export default function Home() {
   const [nfts, setNFts] = useState([]);

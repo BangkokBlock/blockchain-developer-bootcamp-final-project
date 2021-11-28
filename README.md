@@ -3,6 +3,19 @@
 ## About:
 This is a marketplace designed for photographers to create NFT’s of their original photos which they can display and sell on the marketplace website. It also provides a place for fans to purchase their favorite artist photos and resell them on in the marketplace. Users will need a metamask wallet to participate with minting, purchases, and sales. 
 
+## Steps to run on local/rinkby
+
+1. Export your provate key for the owner of the two sol contracts
+2. put that key in .env.local as: ```CONTRACT_PRIVATE_KEY=d9a12983....```
+3. ```npm i``` to install the dependencies
+4. 4. Go to infura and create your project
+5. Copy your project id (rinkeby) to .env.local as ```INFURA_PROJECT_ID=....```
+6. Copy the infura url (rinkeby) to .env.local as ```NEXT_PUBLIC_INFURA_URL=....```
+7. ```npm run deploy-dev``` to compile and deploy contracts to rinkeby
+8. Use a rinkeby faucet to get some test ether
+9. Run the app using ```npm run dev ```
+10. Go to http://localhost:3000
+
 ## Prerequisites:                                                                                                        
 metamask wallet <br />
 node js <br />

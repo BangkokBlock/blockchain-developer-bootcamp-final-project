@@ -3,9 +3,9 @@ import { useState } from "react";
 import Web3Modal from "web3modal";
 import { create as ipfsHttpClient } from "ipfs-http-client";
 
-import NFT from "../artifacts/contracts/NFT.sol/NFT.json";
+import NFT from "../contracts/interfaces/NFT.sol/NFT.json";
 import { useRouter } from "next/router";
-import MVMarket from "../artifacts/contracts/MVMarket.sol/MVMarket.json";
+import MVMarket from "../contracts/interfaces/MVMarket.sol/MVMarket.json";
 
 // in this component we set the ipfs up to host our nft data of
 // file storage
