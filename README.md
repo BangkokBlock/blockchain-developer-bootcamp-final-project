@@ -22,15 +22,15 @@ https://blockchain-developer-bootcamp-final-pro-git-ed01b6-bangkokblock.vercel.a
 ## Steps to run on rinkeby testnet with hardhat.
 
 1. Clone the project locally from the github repository.
-2. In the root project folder run ```npm i``` to install the dependencies.
-4. Open the project in your editor (VS Code) and create a file called *.env.local*. See *.env.local example* file to see an example. 
-5. In metamask switch onto the Rinkeby network and export the private key of your MetaMask account. Copy that private key into .env.local as: ```CONTRACT_PRIVATE_KEY=d9a12983....``` See .env.example file to see an example.
-6. Use a rinkeby faucet to get some test ether (https://faucets.chain.link/). You will need some Rinkeby test ETH to deploy the contracts to rinkeby and to mint tokens with Metamask.
+2. In the root project folder run **```npm i```** to install the dependencies.
+4. Open the project in your editor (VS Code) and create a file called ***.env.local***. See ***.env.example*** file to see an example. 
+5. In metamask switch onto the Rinkeby network and export the private key of your MetaMask account. Copy that private key into .env.local as: ```**CONTRACT_PRIVATE_KEY=d9a12983**....``` See .env.example file to see an example.
+6. Use a rinkeby faucet to get some test ether (*https://faucets.chain.link/*). You will need some Rinkeby test ETH to deploy the contracts to rinkeby and to mint tokens with Metamask.
 7. Go to Infura and create your project under Rinkeby network
-8. Copy your project id (rinkeby) to .env.local as ```INFURA_PROJECT_ID=....``` See .env.example
-9. Copy the infura url (rinkeby) to .env.local as ```NEXT_PUBLIC_INFURA_URL=....``` See .env.example
-10. Once your metamask private key, infura project Id, and Infura URL ID are all copied into the .env.local. Save the file. Now run ```npm run deploy-dev``` in your terminal. This will will compile and deploy the contracts to rinkeby using hardhat. This will return both contract addresses. Please be patient as it can take 30 seconds or so to get the 2 contract addresses returned.
-11. Run *"npx hardhat test"*. 
+8. Copy your project id (rinkeby) to .env.local as ```**INFURA_PROJECT_ID=**....``` See .env.example
+9. Copy the infura url (rinkeby) to .env.local as ```**NEXT_PUBLIC_INFURA_URL=**....``` See .env.example
+10. Once your metamask private key, infura project Id, and Infura URL ID are all copied into the .env.local. Save the file. Now run ```**npm run deploy-dev**``` in your terminal. This will will compile and deploy the contracts to rinkeby using hardhat. This will return both contract addresses. Please be patient as it can take 30 seconds or so to get the 2 contract addresses returned.
+11. Run ```**npx hardhat test**``` 
 12. Use your metamask account (on Rinkeby) to mint tokens. Again please be patient when executing transactions in Metamask. It may take anywhere from 30 seconds to 2 minutes for confirmations. Refresh your screen after minting tokens on the main marketplace page if you do not see a transaction appear after a couple minutes. 
 See instructions below for more specfic info. on minting. 
 
