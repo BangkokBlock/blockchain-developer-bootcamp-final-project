@@ -25,7 +25,7 @@ https://blockchain-developer-bootcamp-final-pro-git-ed01b6-bangkokblock.vercel.a
 2. In the root project folder run **```npm i```** to install the dependencies.
 4. Open the project in your editor (VS Code) and create a file called ***.env.local***. See ***.env.example*** file to see an example. 
 5. In metamask switch onto the Rinkeby network and export the private key of your MetaMask account. Copy that private key into .env.local as: **```CONTRACT_PRIVATE_KEY=d9a12983....```** See .env.example file to see an example.
-6. Use a rinkeby faucet to get some test ether (*https://faucets.chain.link/*). You will need some Rinkeby test ETH to deploy the contracts to rinkeby and to mint tokens with Metamask.
+6. Use a rinkeby faucet to get some test ether (*https://faucets.chain.link/*). You will need some Rinkeby test ETH to deploy the contracts and to mint tokens with Metamask.
 7. Go to Infura and create your project under Rinkeby network
 8. Copy your project id (rinkeby) to .env.local as **```INFURA_PROJECT_ID=....```** See .env.example
 9. Copy the infura url (rinkeby) to .env.local as **```NEXT_PUBLIC_INFURA_URL=....```** See .env.example
@@ -37,5 +37,7 @@ See instructions below for more specfic info. on minting.
 ## HOW TO MINT, BUY, & SELL TOKENS
 
 **Minting an NFT**- on the mint function page we enter Artist Name, Performance Date, and Price (**please put .0001 ether**) and upload a jpeg file. There is a folder called **Pics **in the root project folder where you can select from a number of pics or you can use your own. Once you hit the mint button it should ask you to execute the transaction in metamask, then ask you to confirm it. Please be patient when executing transactions in Metamask. It may take anywher from 30 seconds to 2 minutes for confirmations. If successful the token will be loaded onto both the Main Marketplace and the My Minted NFT’s page. 
+
+###### Ethereum Address- 0x1DB8E46892DEf0C5576d31Fcd6daB68Cff0F6a91
 
 
