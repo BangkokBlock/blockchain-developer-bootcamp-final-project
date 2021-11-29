@@ -36,8 +36,8 @@ See instructions below for more specfic info. on minting.
 
 ## HOW TO MINT TOKENS
 
-**Minting an NFT**- on the mint function page we enter Artist Name, Performance Date, and Price (**please put .0001 ether**) and upload a jpeg file. There is a folder called **Pics **in the root project folder where you can select from a number of pics or you can use your own. Once you hit the mint button it should ask you to execute the transaction in metamask, then ask you to confirm it. Please be patient when executing transactions in Metamask. It may take anywher from 30 seconds to 2 minutes for confirmations. If successful the token will be loaded onto both the Main Marketplace and the My Minted NFT’s page. 
+**Minting an NFT**- on the mint function page we enter Artist Name, Performance Date, and Price (**please put .0001 ether**) and upload a jpeg file. There is a folder called **Pics** in the root project folder where you can select from a number of pics or you can use your own. Once you hit the mint button it should ask you to execute the transaction in metamask, then ask you to confirm it. Please be patient when executing transactions in Metamask. It may take anywher from 30 seconds to 2 minutes for confirmations. If successful the token will be loaded onto both the Main Marketplace and the My Minted NFT’s page. 
 
-###### Ethereum Address- 0x1DB8E46892DEf0C5576d31Fcd6daB68Cff0F6a91
+#### Ethereum Address- 0x1DB8E46892DEf0C5576d31Fcd6daB68Cff0F6a91
 
 
