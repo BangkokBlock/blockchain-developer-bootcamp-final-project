@@ -12,7 +12,7 @@ This is a marketplace designed for photographers to create NFT’s of their orig
 5. Copy your project id (rinkeby) to .env.local as ```INFURA_PROJECT_ID=....```
 6. Copy the infura url (rinkeby) to .env.local as ```NEXT_PUBLIC_INFURA_URL=....```
 7. ```npm run deploy-dev``` to compile and deploy contracts to rinkeby
-8. Use a rinkeby faucet to get some test ether
+8. Use a rinkeby faucet to get some test ether (https://faucets.chain.link/)
 9. Run the app using ```npm run dev ```
 10. Go to http://localhost:3000
 
