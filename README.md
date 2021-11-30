@@ -19,6 +19,10 @@ tailwinds
 
 ## Website url:
 https://blockchain-developer-bootcamp-final-pro-git-ed01b6-bangkokblock.vercel.app/
+
+## Video walk-through
+https://streamable.com/nbsfts
+
 ## Steps to run on rinkeby testnet with hardhat.
 
 1. Clone the project locally from the github repository.
