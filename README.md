@@ -21,7 +21,7 @@ tailwinds
 https://blockchain-developer-bootcamp-final-pro-git-ed01b6-bangkokblock.vercel.app/
 
 ## Video walk-through
-https://streamable.com/nbsfts
+https://streamable.com/2l99ij
 
 ## Steps to run on rinkeby testnet with hardhat.
 
