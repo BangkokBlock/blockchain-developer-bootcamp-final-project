@@ -29,14 +29,13 @@ https://blockchain-developer-bootcamp-final-pro-git-ed01b6-bangkokblock.vercel.a
 7. Go to Infura and create your project under Rinkeby network
 8. Copy your project id (rinkeby) to .env.local as **```INFURA_PROJECT_ID=....```** See .env.example
 9. Copy the infura url (rinkeby) to .env.local as **```NEXT_PUBLIC_INFURA_URL=....```** See .env.example
-10. Once your metamask private key, infura project Id, and Infura URL ID are all copied into the .env.local. Save the file. Now run **```npm run deploy-dev```** in your terminal. This will will compile and deploy the contracts to rinkeby using hardhat. This will return both contract addresses. Please be patient as it can take 30 seconds or so to get the 2 contract addresses returned.
+10. Once your metamask private key, infura project Id, and Infura URL ID are all copied into the .env.local. Save the file. Now run **```npm run deploy-dev```** in your terminal. This will will compile and deploy the contracts to rinkeby using hardhat. This will return both contract addresses. **VERY IMPORTANT** - Please be patient as it takes on average about 2 or 3 minutes for the contracts to compile and return the 2 contract addresses.
 11. Run **```npx hardhat test```** 
-12. Use your metamask account (on Rinkeby) to mint tokens. Again please be patient when executing transactions in Metamask. It may take anywhere from 30 seconds to 2 minutes for confirmations. Refresh your screen after minting tokens on the main marketplace page if you do not see a transaction appear after a couple minutes. 
-See instructions below for more specfic info. on minting. 
-
+12. Use your metamask account (on Rinkeby) to mint tokens. Again please be patient when executing transactions in Metamask. It may take anywhere from 30 seconds to 2 minutes for confirmations. Refresh your screen after minting tokens on the main marketplace page if you do not see a transaction appear after a couple minutes. Try another refresh again. See instructions below for more specfic info. on minting. 
+ 
 ## HOW TO MINT TOKENS
 
-**Minting an NFT**- on the mint function page we enter Artist Name, Performance Date, and Price (**please put .0001 ether**) and upload a jpeg file. There is a folder called **Pics** in the root project folder where you can select from a number of pics or you can use your own. Once you hit the mint button it should ask you to execute the transaction in metamask, then ask you to confirm it. Please be patient when executing transactions in Metamask. It may take anywher from 30 seconds to 2 minutes for confirmations. After the transaction is confirmed the token will be loaded onto both the Main Marketplace and the My Minted NFT’s page. 
+**Minting an NFT**- on the mint function page we enter Artist Name, Performance Date, and Price (**please put .0001 ether**) and upload a jpeg file. There is a folder called **Pics** in the root project folder where you can select from a number of pics or you can use your own. Once you hit the mint button it should ask you to execute the transaction in metamask, then ask you to confirm it. Please be patient when executing transactions in Metamask. It may take anywhere from 30 seconds to 2 minutes for confirmations. After the transaction is confirmed the token will be loaded onto both the Main Marketplace and the My Minted NFT’s page. Please refresh your screen a couple times if you do not see the token. 
 
 #### Ethereum Address- 0x1DB8E46892DEf0C5576d31Fcd6daB68Cff0F6a91
 
