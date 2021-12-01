@@ -33,8 +33,8 @@ https://streamable.com/2l99ij
 7. Go to Infura and create your project under Rinkeby network
 8. Copy your project id (rinkeby) to .env.local as **```INFURA_PROJECT_ID=....```** See .env.example
 9. Copy the infura url (rinkeby) to .env.local as **```NEXT_PUBLIC_INFURA_URL=....```** See .env.example
-10. Once your metamask private key, infura project Id, and Infura URL ID are all copied into the .env.local. Save the file. Now run **```npm run deploy-dev```** in your terminal. This will will compile and deploy the contracts to rinkeby using hardhat. This will return both contract addresses. **VERY IMPORTANT** - Please be patient as it takes on average about 2 or 3 minutes for the contracts to compile and return the 2 contract addresses.
-11. Run **```npx hardhat test```** 
+10. Once your metamask private key, infura project Id, and Infura URL ID are all copied into the .env.local. Save the file. Now run **```npm run deploy-dev```** in your terminal. This will will compile and deploy the contracts to rinkeby using hardhat. This will return both contract addresses. **VERY VERY IMPORTANT** - The inital response to this command may say "Compilation Successful" or "Nothing to compile" wihtou returning the addresses, but if you wait anywhere from 30 seconds to 2 minutes it will indeed return both contract address. So please be patient as it can occasionlly take 1 to 3 minutes for the contracts to compile, deploy, and return the 2 contract addresses.
+11. Run **```npx hardhat test```** to see passing tests.
 12. Use your metamask account (on Rinkeby) to mint tokens. Again please be patient when executing transactions in Metamask. It may take anywhere from 30 seconds to 2 minutes for confirmations. Refresh your screen after minting tokens on the main marketplace page if you do not see a transaction appear after a couple minutes. Try another refresh again. See instructions below for more specfic info. on minting. 
  
 ## HOW TO MINT TOKENS
