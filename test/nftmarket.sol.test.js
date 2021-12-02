@@ -1,3 +1,50 @@
+const { expect } = require("chai");
+const { ethers } = require("hardhat");
+
+describe("Basic Token contract", async () => {
+    let Contract, token, owner, signer1;
+
+    beforeEach(async () => {
+        Contract = await ethers.getContractFactory("NFT");
+        [owner, signer1] = await ethers.getSigners();
+        token = await Contract.deploy(owner.address);
+    });
+
+
+    describe("MVMarket", function () {
+        it("Should mint and trade NFTs", async function () {
+
+            //test to recieve contract addresses
+            const Market = await ethers.getContractFactory('MVMarket')
+            const market = await Market.deploy()
+            await market.deployed()
+            const marketAddress = market.address
+
+            const NFT = await ethers.getContractFactory('NFT')
+            const nft = await NFT.deploy(marketAddress)
+            await nft.deployed()
+            const nftContractAddress = nft.address
+        });
+    });
+
+
+    describe("MVMarket", function () {
+        it("Should test to receive listing price and auction price", async function () {
+            //test to receive listing price and auction price
+            const Market = await ethers.getContractFactory('MVMarket')
+            const market = await Market.deploy()
+            await market.deployed()
+            const marketAddress = market.address
+
+            let listingPrice = await market.getListingPrice()
+            listingPrice = listingPrice.toString()
+            const auctionPrice = ethers.utils.parseUnits('1', 'ether')
+        });
+    });
+});
+
+
+
 // const { expect } = require("chai");
 
 // describe("Basic Token contract", async () => {
